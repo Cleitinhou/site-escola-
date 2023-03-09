@@ -5,9 +5,22 @@
 .cabecalho{background-color: rgb(39, 38, 38);
     color: aliceblue;
 display: flex;
-justify-content: space-around;}
-.cabecalho-imagem{width: 13%}
-.cabecalho-lista-item {
+justify-content: space-around;
+padding: 24px 0;}
+.cabecalho-imagem{
+    width: 13%;
+    height:13%;}
+li{
     display: inline-block;
 margin: 0 10px;
-}
+padding: 80px 0;
+font-size: 28px;}
+h1
+{ display: inline-block;
+ margin: 60px 60px;
+padding: 20px 0;
+font-size: 50px;}
+h2
+{font-size: 40px;}
+p{font-size: 28px;
+padding: 15px 0;}
